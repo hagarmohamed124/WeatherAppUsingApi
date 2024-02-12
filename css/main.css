@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E202B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #bfc1c8;
+
+}
+
+:root {
+
+    --main-color: #1E202B;
+
+}
+
+main {
+
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    min-height: 350px;
+
+}
+
+.myNav {
+
+    background-color: var(--main-color);
+
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h6 {
+
+    font-size: 15px;
+
+}
+
+.myNav .logo {
+    line-height: 0.1;
+    padding-top: 10px;
+}
+
+.myNav small {
+    color: #bfc1c8;
+    font-size: 10px;
+}
+
+.myNav a {
+    
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+
+main .inputButton {
+
+    padding: 20px 50px 20px 20px;
+
+}
+
+@media only screen and (max-width: 607px) {
+
+
+    .nav-list {
+        text-align: center;
+        margin-top: 1.2rem;
+    }
+
+    .nav-list a {
+        margin: .5rem;
+        padding: 10px;
+    }
+}
+
+.row>div {
+
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+.row .card {
+
+    background-color: rgba(255, 255, 255, 0.9)!important;
+}
+
+
+#city {
+    font-size: 19px;
+}
+.first-body{
+    padding: 2.8rem 1rem;
+   
+}
+.h-body {
+    padding: 0.8rem;
+}
+
+.c-body {
+    padding: 5.23rem 0;
+
+}
